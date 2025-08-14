@@ -1,0 +1,16 @@
+(lang dune 3.17)
+(authors "INF6120 student")
+(maintainers "INF6120 student")
+(homepage "http://inf6120.uqam.ca")
+(bug_reports "/dev/null")
+(license MIT)
+(name tp0)
+(generate_opam_files false)
+(package
+ (name tp0)
+ (synopsis "Tp0")
+ (depends ocaml ppx_inline_test oclint))
+
+(pin
+ (url "git+https://gitlab.info.uqam.ca/quentin/oclint.git")
+ (package (name oclint)))
