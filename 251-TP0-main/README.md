@@ -1,5 +1,7 @@
 # TP0 : Anagrammes - Énoncé
 
+(Note Obtenue : 100/100)
+
 Le but de ce TP est de mettre en pratique les concepts appris pendant le cours, en particulier la modélisation d'un problème avec un langage fonctionnel à typage statique fort.
 
 En particulier, le but sera de trouver des anagrammes dans une liste de mot. Deux mots sont des anagrammes quand ils contiennent les même lettres, mais pas spécialement dans le même ordre. Par exemple, les mots `ateliers` et `lesterai` sont des anagrammes.
