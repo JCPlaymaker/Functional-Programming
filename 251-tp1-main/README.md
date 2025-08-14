@@ -7,18 +7,9 @@ Le but de ce TP est de mettre en pratique les concepts appris pendant le cours, 
 
 Ce TP consiste à implémenter un interprète pour un langage de commandes inspiré de  Postscript, un langage de programmation simpliste à pile utilisé pour décrire des dessins, couramment utilisé pour l'impression de documents numériques. Dans ce TP, nous implémentons une version fortement réduite de ce langage, que nous appellerons MiniPostscript. Le but est de modéliser le problème de façon fonctionnellement pure, avec gestion de sortie (texte et dessins), gestion d'un état sous forme de pile, et gestion d'erreurs.
 
-Ce travail est à faire **seul** sans utilisation d'outils d'IA générative.
+Ce travail est à faire **seul**.
 
-## Dépôt git
-
-Avant tout, faites un **fork privé** du dépôt `git` suivant :
-https://gitlab.info.uqam.ca/inf6120/251/251-TP1
-
-**Attention : ne pas faire de fork public de ce dépôt** (règlement 18).
-
-Donnez accès à votre dépôt à l'utilisateur `quentin` en mode *mainteneur* (pour la correction).
-
-Observez la structure du projet :
+## Observez la structure du projet :
 
 - le dossier `lib/` contient le fichier `tp1.ml` : là où vous devez implémenter le TP. C'est le seul fichier à modifier.
 - le dossier `ps/` contient des utilitaires utiles pour le TP :
