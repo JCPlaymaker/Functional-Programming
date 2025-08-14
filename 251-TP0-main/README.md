@@ -6,19 +6,9 @@ Le but de ce TP est de mettre en pratique les concepts appris pendant le cours, 
 
 En particulier, le but sera de trouver des anagrammes dans une liste de mot. Deux mots sont des anagrammes quand ils contiennent les même lettres, mais pas spécialement dans le même ordre. Par exemple, les mots `ateliers` et `lesterai` sont des anagrammes.
 
-Ce travail est à faire **seul** sans utilisation d'outils d'IA générative.
+Ce travail est à faire **seul**.
 
-## Dépôt git
-
-Avant tout, faites un **fork privé** du dépôt `git` suivant :
-https://gitlab.info.uqam.ca/inf6120/251/251-TP0
-
-**Attention : ne pas faire de fork public de ce dépôt** (règlement 18).
-
-Donnez accès à votre dépôt à l'utilisateur `quentin` en mode *mainteneur* (pour la correction).
-Il faudra ajouter le correcteur également; les informations à ce sujet seront communiquées avant la date limite.
-
-Observez la structure du projet :
+## Observez la structure du projet :
 
 - le dossier `lib/` contient le fichier `tp0.ml`, qui est là où vous devez implémenter le TP ;
 - le dossier `test/` contient les tests publics ;
