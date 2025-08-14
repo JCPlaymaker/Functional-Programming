@@ -1,0 +1,2 @@
+Code permanent,Total,Compilation,Tests échoués,Points tests (/70),Points Image (/5),Temps d'exécution,Points temps (/5),"Position relative au temps d’exécution (à titre indicatif uniquement, en comparaison aux autres qui ont l’image générée. Meilleur temps = 0.127 secondes)",linter,Pénalité lint,Points explication (/10),Points qualité (/10),Remarques
+MERJ69080104,81.22,1,4,62.22,0,ne génère pas l’image,0,n/a,0,,9,10,la gestion d’erreur pourrait etre mieux fait en utilisant les types result ou option a la place des listes vides

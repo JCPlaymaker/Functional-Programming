@@ -1,0 +1,31 @@
+%!PS
+% Inspired from https://github.com/adc-code/PSFractals
+/baselength 5 def
+/A { baselength 0 rlineto } def
+/B { baselength 0 rlineto } def
+/Minus { -60 rotate } def
+/Plus { 60 rotate } def
+
+/level 0 def
+/inc { /level level 1 add def } def
+/dec { /level level 1 sub def } def
+
+/RuleA {
+    level 0 gt {
+        dec
+        RuleA Minus RuleB Minus Minus RuleB Plus RuleA Plus Plus RuleA RuleA Plus RuleB Minus
+        inc
+    } { A } ifelse
+} def
+/RuleB {
+    level 0 gt {
+        dec
+        Plus RuleA Minus RuleB RuleB Minus Minus RuleB Minus RuleA Plus Plus RuleA Plus RuleB
+        inc
+    } { B } ifelse
+} def
+
+/level 5 def
+700 700 moveto
+RuleA
+stroke

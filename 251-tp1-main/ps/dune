@@ -1,0 +1,9 @@
+(library
+ (name tp1_ps)
+ (inline_tests)
+ (libraries cairo2)
+ (preprocess (pps ppx_inline_test)))
+
+(ocamllex lexer)
+(menhir (modules parser))
+

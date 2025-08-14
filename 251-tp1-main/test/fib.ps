@@ -1,0 +1,35 @@
+/fib {
+    % [n]
+    dup
+    % [n n]
+    2 exch lt
+    % [(n<2) n]
+    {
+      % [n]
+      dup
+      % [n n]
+      1
+      sub
+      % [n-1 n]
+      fib
+      % [fib(n-1) n]
+      exch
+      % [n fib(n-1)]
+      2
+      sub
+      fib
+      % [fib(n-2) fib(n-1)]
+      add
+    } {
+      % [n]
+      pop
+      1
+    } ifelse
+} def
+
+0
+20 {
+    1 add
+    dup
+    fib stack pop
+} repeat

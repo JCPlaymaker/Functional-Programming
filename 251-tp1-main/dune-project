@@ -1,0 +1,18 @@
+(lang dune 3.17)
+(cram enable)
+(authors "INF6120 student")
+(maintainers "INF6120 student")
+(homepage "http://inf6120.uqam.ca")
+(bug_reports "/dev/null")
+(license MIT)
+(name tp1)
+(using menhir 3.0)
+(generate_opam_files true)
+(package
+ (name tp1)
+ (synopsis "Tp1")
+ (depends ocaml ppx_inline_test oclint cairo2 menhir))
+
+(pin
+ (url "git+https://gitlab.info.uqam.ca/quentin/oclint.git")
+ (package (name oclint)))
