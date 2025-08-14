@@ -1,5 +1,8 @@
 # TP0 : Postscript - Énoncé
 
+#### Note Obtenue: 82/100
+Manque la partie dessin dû à la participation aux CSGAMES2025
+
 Le but de ce TP est de mettre en pratique les concepts appris pendant le cours, en particulier la modélisation d'un problème avec un langage fonctionnel à typage statique fort.
 
 Ce TP consiste à implémenter un interprète pour un langage de commandes inspiré de  Postscript, un langage de programmation simpliste à pile utilisé pour décrire des dessins, couramment utilisé pour l'impression de documents numériques. Dans ce TP, nous implémentons une version fortement réduite de ce langage, que nous appellerons MiniPostscript. Le but est de modéliser le problème de façon fonctionnellement pure, avec gestion de sortie (texte et dessins), gestion d'un état sous forme de pile, et gestion d'erreurs.
